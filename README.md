@@ -19,7 +19,7 @@ add_book_in_favorites — добавляет книгу в избранное.
 delete_book_from_favorites — удаляет книгу из избранного.
 get_list_of_favorites_books — получает список избранных книг.
 
-Для каждого из методов были написаны тесты. Тесты лежат в файле tests.py
+Для каждого из методов были написаны тесты. Тесты лежат в файле test\test_all.py
 
 В тестах используются методы @pytest.fixture и @pytest.mark.parametrize
 

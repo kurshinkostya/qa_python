@@ -1,8 +1,7 @@
 import pytest
 from main import BooksCollector
 
-
+# ссоздаем фикстуру collector
 @pytest.fixture
-def collect():
-    collect = BooksCollector()
-    return collect
+def collector():
+    return BooksCollector()
